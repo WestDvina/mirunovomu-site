@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /search/
+Allow: /
+
+# пагинация не создаёт новых страниц для индекса
+Clean-param: page /category/ /tag/ /author/
+
+Host: https://mirunovomu.ru
+Sitemap: https://mirunovomu.ru/sitemap.xml
